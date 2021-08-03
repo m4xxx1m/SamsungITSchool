@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent">
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:name="ru.maximivanov.myfragments.FragmentImage"
+        android:layout_weight="50"
+        android:id="@+id/fr1"
+        tools:layout="@layout/fragment_image" />
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:name="ru.maximivanov.myfragments.FragmentText"
+        android:layout_weight="50"
+        android:id="@+id/fr2"
+        tools:layout="@layout/fragment_text" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="пароль"
+        android:id="@+id/password"
+        android:inputType="textPassword">
+    </EditText>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="ru.maximivanov.myfragments.FragmentButton"
+        android:id="@+id/fr3"/>
+</LinearLayout>

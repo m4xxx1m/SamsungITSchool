@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LoadImage</string>
+    <string name="download">Загрузить картинку</string>
+    <string name="image">image</string>
+</resources>
